@@ -394,15 +394,6 @@
     padding-left: 0;
     padding-right: 200px; } }
 
-.botonArriba {
-  position: fixed;
-  z-index: 1000;
-  bottom: 20px;
-  right: 20px;
-  padding: 25px;
-  width: 150px;
-  opacity: none; }
-
 /*PUBLICIDAD DE INSTAGRAM*/
 .publicidad {
   background-color: white;
@@ -551,12 +542,17 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-top: 30px; }
+  margin-top: 30px;
+  align-items: center; }
+  footer .volverInicio {
+    font-size: 20px; }
+    footer .volverInicio a {
+      color: white;
+      font-weight: bold; }
   footer h4 {
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
-    color: black;
-    margin-top: 50px; }
+    color: black; }
   footer .imgFooterYt {
     width: 110px; }
   footer .imgFooterIg {
@@ -599,8 +595,11 @@ footer {
     width: 100px; }
   .sponsor .rusmed {
     width: 120px; }
+  footer .volverInicio {
+    margin-top: 20px; }
   footer h4 {
-    font-size: 20px; } }
+    font-size: 20px;
+    margin-top: 20px; } }
 
 /*VISTA TABLET*/
 @media (min-width: 640px) and (max-width: 1200px) {
