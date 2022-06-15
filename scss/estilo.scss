@@ -1,0 +1,299 @@
+@import "campeonato" , "resultados" , "preguntas" ;
+
+.botonArriba {
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+    padding: 25px;
+    width: 150px;
+    opacity: none;
+}
+
+/*PUBLICIDAD DE INSTAGRAM*/
+.publicidad {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    h2 {
+        font-family:'Bebas Neue', cursive; 
+        margin-top: 9px;
+        margin-left: 10px;
+        color: black;
+    }
+    img {
+        width: 50px;
+        margin-left: 25px;
+    }
+}
+
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#007FFF;
+    z-index: 1;
+    opacity: 80%;
+    
+    .logo {
+        width: 150px;
+    }
+    
+    
+    .fuentes {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    .redes {
+        display: inline-block;
+        margin-top: 25px;
+    }
+    img {
+        width: 60px;
+        margin-top: 10px;
+    }
+    
+    .wspLogo {
+        width: 85px;
+    }
+    
+    .white {
+        color: white;
+    }
+}
+
+/*TITULO Y IMG DE FONDO*/
+.titulo {
+    text-align: right;
+    background-image: url(https://pbs.twimg.com/media/D060honX4AA4vcI.jpg:large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 120vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+
+    h1 {
+        text-align: right;
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 100px;
+        color: #007FFF;
+        opacity: 80%;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 400px;
+        padding-right: 100px;
+    }
+
+    img {
+        margin-right: 300px;
+        width: 200px;
+
+    }
+}
+
+/*TITULO "QUIENES SOMOS"*/
+.quienesSomos {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    background-color: #5A5353;
+    color: white ;
+    margin-top: 100px;
+    
+}
+/*PARRAFOS "QUIENES SOMOS"*/
+.quienesSomosParrafo {
+    background-color: #007FFF;
+    .parrafoTorneo {
+        font-family:  'Bebas Neue', cursive;
+        font-size: 40px;
+        padding: 50px 50px 50px 50px;
+        color: white;
+    }
+    .anotate{
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 75px;
+        background-color: #007FFF;
+        color: white;
+        margin-top: 10px;
+    }
+}
+/*TITULO NOVEDADES*/
+.novedades{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    background-color: #5A5353;
+    color: black;
+    margin-top: 100px;
+}
+
+/*CARDS DE "NOVEDADES"*/
+.cardsLinks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #5A5353;
+    text-align: center;
+    padding-bottom: 30px;
+    z-index: 20;
+    .card {
+        margin-top: 30px;
+        box-shadow: 4px 7px 15px 0 black;
+        z-index: 21;
+    }
+
+    .btn {
+        color: white;
+        background-color:#007FFF;
+    }
+
+}
+
+/*PREMIOS Y FOTO DE LOS PREMIOS"*/
+.premios {
+    text-align: center;
+    background-color: #5A5353;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+
+    img {
+        box-shadow:4px 7px 15px 0 black ;
+    }
+}
+
+/*AGRADECIMIENTO*/
+.sponsor {
+    background-color: #007FFF;
+    margin-top: 100px;
+    text-align: center;
+    h3 {
+        font-size: 80px;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+
+    }
+    .med {
+        width: 130px;
+        
+    }
+
+    .rusmed {
+        width: 160px;
+    }
+}
+
+
+footer {
+    text-align: center;
+    background-color: #007FFF;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    h4 {
+        font-family:'Bebas Neue', cursive;
+        font-size: 40px;
+        color: black;
+        margin-top: 50px;
+    }
+    .imgFooterYt {
+       width: 110px;
+    }
+
+    .imgFooterIg {
+        width: 170px;
+        margin-top: 20px;
+    }
+}
+
+/*VISTA MOBILE*/
+@media  (max-width: 640px) {
+    header {
+        justify-content: space-around;
+         .navbar {
+             margin-right: auto;
+         }
+        .divRedes {
+            display: none;
+        }
+    }
+    .titulo {
+        text-align: center;
+        width: 100%;
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            padding-right:15px;
+        }
+        img {
+            text-align: center;
+            margin-right: 20px;
+        }
+    }
+    .novedades {
+        font-size: 60px;
+    }
+
+    .cardsLinks {
+        width: 100%;
+        
+    }
+    .quienesSomosParrafo {
+       .anotate {
+        font-size: 55px;
+        padding: 20px;
+       }
+    }  
+    .premios {
+        img {
+            width: 100%;
+        }
+    }
+    .sponsor {
+        h3 {
+            font-size: 40px;
+        }
+        .med {
+            width: 100px;
+        }
+
+        .rusmed {
+            width: 120px;
+        }
+    }
+
+    footer {
+        h4 {
+            font-size: 20px;
+        }
+    }
+}
+
+/*VISTA TABLET*/
+@media  (min-width:640px) and (max-width:1200px) {
+    .titulo {
+        h1 {
+            font-size: 80px;
+        }
+    }
+    .premios {
+        img {
+
+           width: 100%;
+        }
+    }
+
+}

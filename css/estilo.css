@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*TITULO E IMAGEN DE FONDO*/
+.tituloCampeonato {
+  text-align: right;
+  background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs3/168749965/original/54c8f832d5041f95037bbe843545cbb719b305b5/take-amazing-4k-iracing-pictures-of-your-car-or-replay-file.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  height: 120vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .tituloCampeonato h1 {
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: #007FFF;
+    opacity: 80%;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 400px;
+    padding-left: 150px; }
+
+/*IMAGENES PC Y MOBILE*/
+.campeonatoFoto {
+  text-align: center;
+  background-color: #5A5353;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .campeonatoFoto img {
+    width: 1000px;
+    box-shadow: 4px 7px 15px 0 black; }
+
+/*TITULO DE NUEVO CAMPEONATO*/
+.novedadesCampeonato {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 75px;
+  background-color: #5A5353;
+  color: black;
+  margin-top: 100px; }
+
+/*PARRAFO Y FOTO "NUEVO CAMPEONATO"*/
+.sectionNuevoCampeonato {
+  background-color: #5A5353;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center; }
+  .sectionNuevoCampeonato .sumate {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: underline; }
+  .sectionNuevoCampeonato .parrafoTorneo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black; }
+
+.comoInscribirme {
+  background-color: #007FFF; }
+
+.comoInscribirmeTitulo {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 75px;
+  background-color: #007FFF;
+  color: black;
+  margin-top: 100px;
+  text-decoration: underline; }
+
+.comoInscribirmeSubtitulo {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 55px;
+  background-color: #007FFF;
+  color: black;
+  margin-top: 20px; }
+
+.formulario {
+  width: 400px;
+  padding: 30px;
+  margin-left: 40%;
+  border-radius: 4px;
+  background-color: #007FFF; }
+  .formulario form {
+    text-align: center; }
+  .formulario #nombres {
+    text-align: center; }
+  .formulario .formularios {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: black;
+    color: white; }
+
+/*MEDIA MOBILE "CAMPEONATOS"*/
+@media (max-width: 640px) {
+  .tituloCampeonato {
+    width: 100%; }
+    .tituloCampeonato h1 {
+      font-size: 55px;
+      padding-left: 35px; }
+    .tituloCampeonato img {
+      text-align: center;
+      margin-right: 20px; }
+  .campeonatoFoto {
+    text-align: center; }
+    .campeonatoFoto .posicionesCamp {
+      display: none; }
+    .campeonatoFoto .posicionesMobile {
+      width: 300px; }
+  .novedadesCampeonato {
+    font-size: 50px; }
+  .parrafoTorneo {
+    font-size: 20px; }
+  .sectionNuevoCampeonato {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center; }
+    .sectionNuevoCampeonato .nuevoCamp {
+      display: none; }
+    .sectionNuevoCampeonato .nuevoCampMobile {
+      width: 100%; }
+  .formulario {
+    width: 100%;
+    margin-left: 0; } }
+
+/*MEDIA TABLET*/
+@media (min-width: 640px) and (max-width: 1200px) {
+  header .divRedes {
+    display: none; }
+  .tituloCampeonato {
+    width: 100%; }
+    .tituloCampeonato h1 {
+      font-size: 120px;
+      padding-left: 0;
+      margin-left: 0; }
+  .campeonatoFoto .posicionesCamp {
+    width: 100%; }
+  .sectionNuevoCampeonato {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center; }
+    .sectionNuevoCampeonato .nuevoCamp {
+      width: 100%; }
+    .sectionNuevoCampeonato .nuevoCampMobile {
+      display: none; }
+    .sectionNuevoCampeonato .parrafoTorneo {
+      padding: 50px; }
+    .sectionNuevoCampeonato .sumate {
+      padding: 50px; }
+  .posicionesMobile {
+    display: none; }
+  .formulario {
+    width: 100%;
+    margin-left: 0; } }
+
+/*APLICO MEDIA PARA SACAR IMAGENES MOBILES*/
+@media (min-width: 1200px) {
+  .nuevoCampMobile {
+    display: none; }
+  .posicionesMobile {
+    display: none; } }
+
+.tituloResultado {
+  text-align: right;
+  background-image: url(https://preview.redd.it/qby520m6z4841.png?auto=webp&s=86de4abb3be80fe2ffba18e4918abcaeed6b6bac);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .tituloResultado h1 {
+    text-align: right;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: #007FFF;
+    opacity: 80%;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-right: 100px; }
+
+/*IMAGENES PC Y MOBILE*/
+.podio {
+  text-align: center;
+  background-color: #5A5353;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .podio img {
+    width: 1000px;
+    box-shadow: 4px 7px 15px 0 black; }
+
+/*TITULO DE NUEVO CAMPEONATO*/
+.resultadosFecha {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 75px;
+  background-color: #5A5353;
+  color: black;
+  margin-top: 100px; }
+
+.resultadosFinales {
+  text-align: center;
+  background-color: #5A5353;
+  padding-top: 20PX;
+  padding-bottom: 20px; }
+  .resultadosFinales img {
+    box-shadow: 4px 7px 15px 0 black; }
+
+.tituloResumen {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #5A5353;
+  justify-content: space-around;
+  border-bottom: 5px solid white;
+  margin-top: 50px;
+  padding: 15px; }
+  .tituloResumen .logo {
+    width: 150px; }
+  .tituloResumen h4 {
+    font-size: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    color: white; }
+
+.parrafoResumen {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  text-align: center;
+  padding: 60px;
+  background-color: #007FFF; }
+  .parrafoResumen h5 {
+    font-size: 100px;
+    text-decoration: underline; }
+  .parrafoResumen h6 {
+    font-size: 50px;
+    color: red;
+    background-color: white; }
+  .parrafoResumen img {
+    width: 200px;
+    padding: 20px; }
+
+.tituloPreguntas {
+  text-align: right;
+  background-image: url(https://pbs.twimg.com/media/FSdi32PWUAAjocg?format=jpg&name=4096x4096);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .tituloPreguntas h1 {
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 140px;
+    color: #007FFF;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 400px;
+    padding-right: 100px; }
+
+.preguntas {
+  text-align: center;
+  padding: 20px;
+  background-color: #5A5353;
+  margin-top: 100px; }
+  .preguntas h2 {
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-decoration: underline; }
+  .preguntas p {
+    color: white;
+    font-size: 30px; }
+
+.fotosAutos {
+  display: flex;
+  flex-flow: row wrap;
+  border-top: 9px solid black;
+  border-bottom: 9px solid black; }
+  .fotosAutos img {
+    width: 630px; }
+
+.preguntasDos {
+  text-align: center;
+  padding: 20px;
+  background-color: #5A5353; }
+  .preguntasDos h2 {
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-decoration: underline; }
+  .preguntasDos p {
+    color: white;
+    font-size: 30px; }
+
+.botonArriba {
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+  padding: 25px;
+  width: 150px;
+  opacity: none; }
+
+/*PUBLICIDAD DE INSTAGRAM*/
+.publicidad {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+  .publicidad h2 {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 9px;
+    margin-left: 10px;
+    color: black; }
+  .publicidad img {
+    width: 50px;
+    margin-left: 25px; }
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #007FFF;
+  z-index: 1;
+  opacity: 80%; }
+  header .logo {
+    width: 150px; }
+  header .fuentes {
+    color: white;
+    font-size: 25px;
+    font-weight: bold; }
+  header .redes {
+    display: inline-block;
+    margin-top: 25px; }
+  header img {
+    width: 60px;
+    margin-top: 10px; }
+  header .wspLogo {
+    width: 85px; }
+  header .white {
+    color: white; }
+
+/*TITULO Y IMG DE FONDO*/
+.titulo {
+  text-align: right;
+  background-image: url(https://pbs.twimg.com/media/D060honX4AA4vcI.jpg:large);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  height: 120vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .titulo h1 {
+    text-align: right;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    color: #007FFF;
+    opacity: 80%;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 400px;
+    padding-right: 100px; }
+  .titulo img {
+    margin-right: 300px;
+    width: 200px; }
+
+/*TITULO "QUIENES SOMOS"*/
+.quienesSomos {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 75px;
+  background-color: #5A5353;
+  color: white;
+  margin-top: 100px; }
+
+/*PARRAFOS "QUIENES SOMOS"*/
+.quienesSomosParrafo {
+  background-color: #007FFF; }
+  .quienesSomosParrafo .parrafoTorneo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding: 50px 50px 50px 50px;
+    color: white; }
+  .quienesSomosParrafo .anotate {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    background-color: #007FFF;
+    color: white;
+    margin-top: 10px; }
+
+/*TITULO NOVEDADES*/
+.novedades {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 75px;
+  background-color: #5A5353;
+  color: black;
+  margin-top: 100px; }
+
+/*CARDS DE "NOVEDADES"*/
+.cardsLinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #5A5353;
+  text-align: center;
+  padding-bottom: 30px;
+  z-index: 20; }
+  .cardsLinks .card {
+    margin-top: 30px;
+    box-shadow: 4px 7px 15px 0 black;
+    z-index: 21; }
+  .cardsLinks .btn {
+    color: white;
+    background-color: #007FFF; }
+
+/*PREMIOS Y FOTO DE LOS PREMIOS"*/
+.premios {
+  text-align: center;
+  background-color: #5A5353;
+  padding-top: 20PX;
+  padding-bottom: 20px; }
+  .premios img {
+    box-shadow: 4px 7px 15px 0 black; }
+
+/*AGRADECIMIENTO*/
+.sponsor {
+  background-color: #007FFF;
+  margin-top: 100px;
+  text-align: center; }
+  .sponsor h3 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold; }
+  .sponsor .med {
+    width: 130px; }
+  .sponsor .rusmed {
+    width: 160px; }
+
+footer {
+  text-align: center;
+  background-color: #007FFF;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 30px; }
+  footer h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: black;
+    margin-top: 50px; }
+  footer .imgFooterYt {
+    width: 110px; }
+  footer .imgFooterIg {
+    width: 170px;
+    margin-top: 20px; }
+
+/*VISTA MOBILE*/
+@media (max-width: 640px) {
+  header {
+    justify-content: space-around; }
+    header .navbar {
+      margin-right: auto; }
+    header .divRedes {
+      display: none; }
+  .titulo {
+    text-align: center;
+    width: 100%; }
+    .titulo h1 {
+      font-size: 50px;
+      text-align: center;
+      padding-right: 15px; }
+    .titulo img {
+      text-align: center;
+      margin-right: 20px; }
+  .novedades {
+    font-size: 60px; }
+  .cardsLinks {
+    width: 100%; }
+  .quienesSomosParrafo .anotate {
+    font-size: 55px;
+    padding: 20px; }
+  .premios img {
+    width: 100%; }
+  .sponsor h3 {
+    font-size: 40px; }
+  .sponsor .med {
+    width: 100px; }
+  .sponsor .rusmed {
+    width: 120px; }
+  footer h4 {
+    font-size: 20px; } }
+
+/*VISTA TABLET*/
+@media (min-width: 640px) and (max-width: 1200px) {
+  .titulo h1 {
+    font-size: 80px; }
+  .premios img {
+    width: 100%; } }

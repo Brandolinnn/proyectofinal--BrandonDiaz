@@ -1,0 +1,72 @@
+.tituloPreguntas {
+    text-align: right;
+    background-image: url(https://pbs.twimg.com/media/FSdi32PWUAAjocg?format=jpg&name=4096x4096);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    h1 {
+        text-align: right;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 140px;
+        color: #007FFF;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 400px;
+        padding-right: 100px;
+        
+    }
+}
+
+.preguntas {
+    text-align: center;
+    padding: 20px;
+    background-color: #5A5353;
+    margin-top:100px;
+    
+    h2 {
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        text-decoration: underline;
+    }
+
+    p {
+        color: white;
+        font-size: 30px;
+
+    }
+}
+
+.fotosAutos {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 9px solid black;
+    border-bottom: 9px solid black;
+    img {
+        width: 630px;
+    }
+}
+
+.preguntasDos {
+    text-align: center;
+    padding: 20px;
+    background-color: #5A5353;
+    
+    h2 {
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        text-decoration: underline;
+    }
+
+    p {
+        color: white;
+        font-size: 30px;
+
+    }
+}

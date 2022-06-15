@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*TITULO E IMAGEN DE FONDO*/
+
+.tituloCampeonato {
+    text-align: right;
+    background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs3/168749965/original/54c8f832d5041f95037bbe843545cbb719b305b5/take-amazing-4k-iracing-pictures-of-your-car-or-replay-file.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 120vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+    h1 {
+        text-align: left;
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 120px;
+        color: #007FFF;
+        opacity: 80%;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 400px;
+        padding-left: 150px;
+    }
+}
+
+/*IMAGENES PC Y MOBILE*/
+.campeonatoFoto {
+    text-align: center;
+    background-color: #5A5353;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    img {
+        width: 1000px;
+        
+        box-shadow: 4px 7px 15px 0 black;
+    }
+}
+
+/*TITULO DE NUEVO CAMPEONATO*/
+.novedadesCampeonato{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    background-color: #5A5353;
+    color: black;
+    margin-top: 100px;
+}
+
+/*PARRAFO Y FOTO "NUEVO CAMPEONATO"*/
+.sectionNuevoCampeonato {
+    background-color: #5A5353;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+    .sumate {
+        font-family:  'Bebas Neue', cursive;
+        font-size: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .parrafoTorneo {
+        font-family:  'Bebas Neue', cursive;
+        font-size: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+    }
+}
+.comoInscribirme {
+    background-color: #007FFF;
+}
+.comoInscribirmeTitulo {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    background-color: #007FFF;
+    color: black;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.comoInscribirmeSubtitulo {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    background-color: #007FFF;
+    color: black;
+    margin-top: 20px;
+}
+
+.formulario {
+    width: 400px;
+    padding: 30px;
+    margin-left: 40%;
+    border-radius: 4px;
+    background-color: #007FFF;
+    
+    form {
+        text-align: center;
+    }
+    
+    #nombres {
+        text-align: center;
+    }
+
+    .formularios {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    }
+}
+
+/*MEDIA MOBILE "CAMPEONATOS"*/
+@media  (max-width: 640px) {
+    .tituloCampeonato {
+        width: 100%;
+        h1 {
+            font-size: 55px;
+            padding-left: 35px;  
+        }
+        img {
+            text-align: center;
+            margin-right: 20px;
+        }
+    }
+
+    
+    .campeonatoFoto {
+        text-align: center;
+      .posicionesCamp {
+        display: none;
+      }
+      .posicionesMobile {
+          width: 300px;
+      }
+    } 
+
+
+    .novedadesCampeonato {
+        font-size: 50px;
+    }
+
+    .parrafoTorneo {
+        font-size: 20px;
+    }
+
+    .sectionNuevoCampeonato {
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        .nuevoCamp {
+            display: none;
+        }
+
+        .nuevoCampMobile {
+            
+            width: 100%;
+             
+        }
+    }
+
+    .formulario {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}
+
+/*MEDIA TABLET*/
+@media  (min-width:640px) and (max-width:1200px) {
+    header {
+        .divRedes {
+        display: none;
+        }
+    }
+    .tituloCampeonato {
+        width: 100%;
+        h1 {
+            font-size: 120px;
+            padding-left:0;
+            margin-left: 0;
+        }
+    }
+    
+    .campeonatoFoto {
+        .posicionesCamp {
+            width: 100%;
+        }
+    }
+    .sectionNuevoCampeonato {
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        .nuevoCamp {
+            width: 100%;
+        }
+        .nuevoCampMobile { 
+        display: none;
+        }
+        .parrafoTorneo {
+            padding: 50px;
+        }
+        .sumate {
+            padding: 50px;
+        }
+    }
+    
+    .posicionesMobile {
+        display: none;
+    }
+    .formulario {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+   
+/*APLICO MEDIA PARA SACAR IMAGENES MOBILES*/
+@media (min-width:1200px) {
+    .nuevoCampMobile {
+        display: none;
+    }
+
+    .posicionesMobile {
+        display: none;
+    }
+}

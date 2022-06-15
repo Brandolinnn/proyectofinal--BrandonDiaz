@@ -1,0 +1,106 @@
+.tituloResultado {
+    text-align: right;
+    background-image: url(https://preview.redd.it/qby520m6z4841.png?auto=webp&s=86de4abb3be80fe2ffba18e4918abcaeed6b6bac);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    h1 {
+        text-align: right;
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 120px;
+        color: #007FFF;
+        opacity: 80%;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 200px;
+        padding-right: 100px;
+    }
+}
+
+/*IMAGENES PC Y MOBILE*/
+.podio {
+    text-align: center;
+    background-color: #5A5353;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    img {
+        width: 1000px;
+        
+        box-shadow: 4px 7px 15px 0 black;
+    }
+}
+
+/*TITULO DE NUEVO CAMPEONATO*/
+.resultadosFecha{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    background-color: #5A5353;
+    color: black;
+    margin-top: 100px;
+}
+
+.resultadosFinales{
+    text-align: center;
+    background-color: #5A5353;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+
+    img {
+        box-shadow:4px 7px 15px 0 black ;
+    }
+}
+
+
+.tituloResumen {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: #5A5353;
+    justify-content: space-around;
+    border-bottom: 5px solid white;
+    margin-top: 50px;
+    padding: 15px;
+    .logo {
+        width: 150px;
+    }
+
+    h4 {
+        font-size: 'Bebas Neue', cursive; 
+        font-size: 50px;
+        text-decoration: underline;
+        color:white;
+    }
+}
+
+.parrafoResumen {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 40px;
+    text-align: center;
+    padding: 60px;
+    background-color: #007FFF;
+
+    h5 {
+        font-size: 100px;
+        text-decoration: underline;
+    }
+
+    h6 {
+        font-size: 50px;
+        color: red;
+        background-color: white;
+    }
+
+    img {
+        width: 200px;
+        padding: 20px;
+        
+    }
+}
