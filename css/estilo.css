@@ -114,9 +114,7 @@
   .campeonatoFoto {
     text-align: center; }
     .campeonatoFoto .posicionesCamp {
-      display: none; }
-    .campeonatoFoto .posicionesMobile {
-      width: 300px; }
+      width: 100%; }
   .novedadesCampeonato {
     font-size: 50px; }
   .parrafoTorneo {
@@ -127,8 +125,6 @@
     flex-flow: row wrap;
     align-items: center; }
     .sectionNuevoCampeonato .nuevoCamp {
-      display: none; }
-    .sectionNuevoCampeonato .nuevoCampMobile {
       width: 100%; }
   .formulario {
     width: 100%;
@@ -255,6 +251,31 @@
     width: 200px;
     padding: 20px; }
 
+/*VISTA MOBILE*/
+@media (max-width: 640px) {
+  .tituloResultado h1 {
+    font-size: 60px;
+    padding-left: 0;
+    padding-right: 250px; }
+  .podio img {
+    width: 100%; }
+  .resultadosFinales img {
+    width: 100%; }
+  .parrafoResumen h5 {
+    font-size: 55px; }
+  .parrafoResumen p {
+    font-size: 30px; }
+  .parrafoResumen h6 {
+    font-size: 45px;
+    padding-right: 30px; } }
+
+/*MEDIA TABLET*/
+@media (min-width: 640px) and (max-width: 1200px) {
+  .tituloResultado h1 {
+    font-size: 80px;
+    padding-left: 0;
+    padding-right: 320px; } }
+
 .tituloPreguntas {
   text-align: right;
   background-image: url(https://pbs.twimg.com/media/FSdi32PWUAAjocg?format=jpg&name=4096x4096);
@@ -309,6 +330,69 @@
   .preguntasDos p {
     color: white;
     font-size: 30px; }
+
+/*VISTA MOBILE*/
+@media (max-width: 640px) {
+  .tituloPreguntas h1 {
+    font-size: 60px;
+    padding-left: 0;
+    padding-right: 200px; }
+  .fotosAutos img {
+    width: 100%; } }
+
+/*MEDIA TABLET*/
+@media (min-width: 640px) and (max-width: 1200px) {
+  .fotosAutos img {
+    width: 100%; } }
+
+.tituloContacto {
+  text-align: right;
+  background-image: url(https://cdn.shopify.com/s/files/1/0291/5962/0668/products/photo_n00024_s163_smooth_1.0_1920x1080_1bc9d755-6c85-41bc-ab71-df3c514875dd_1024x1024@2x.png?v=1651440592);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  height: 90vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .tituloContacto h1 {
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 140px;
+    color: #007FFF;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 350px;
+    padding-right: 100px; }
+
+.tituloContactarnos {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 75px;
+  background-color: #5A5353;
+  color: black;
+  margin-top: 100px; }
+
+.contactoRedes {
+  background-color: #5A5353;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .contactoRedes .igLogoAzul {
+    width: 200px; }
+  .contactoRedes .wspLogoAzul {
+    width: 250px; }
+
+/*VISTA MOBILE*/
+@media (max-width: 640px) {
+  .tituloContacto h1 {
+    font-size: 60px;
+    padding-left: 0;
+    padding-right: 200px; } }
 
 .botonArriba {
   position: fixed;
@@ -501,13 +585,16 @@ footer {
     font-size: 60px; }
   .cardsLinks {
     width: 100%; }
+  .quienesSomos {
+    font-size: 50px; }
   .quienesSomosParrafo .anotate {
     font-size: 55px;
     padding: 20px; }
   .premios img {
     width: 100%; }
   .sponsor h3 {
-    font-size: 40px; }
+    font-size: 30px;
+    padding: 10px; }
   .sponsor .med {
     width: 100px; }
   .sponsor .rusmed {

@@ -141,10 +141,7 @@
     .campeonatoFoto {
         text-align: center;
       .posicionesCamp {
-        display: none;
-      }
-      .posicionesMobile {
-          width: 300px;
+        width: 100%;
       }
     } 
 
@@ -164,13 +161,7 @@
         align-items: center;
 
         .nuevoCamp {
-            display: none;
-        }
-
-        .nuevoCampMobile {
-            
             width: 100%;
-             
         }
     }
 

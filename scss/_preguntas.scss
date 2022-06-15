@@ -70,3 +70,29 @@
 
     }
 }
+
+/*VISTA MOBILE*/
+@media  (max-width: 640px) {
+    .tituloPreguntas {
+        h1 {
+            font-size: 60px;
+            padding-left: 0;
+            padding-right: 200px;
+        }
+    }
+
+    .fotosAutos {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/*MEDIA TABLET*/
+@media  (min-width:640px) and (max-width:1200px) {
+    .fotosAutos {
+        img {
+            width: 100%;
+        }
+    }
+}

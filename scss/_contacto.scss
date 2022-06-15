@@ -1,0 +1,60 @@
+.tituloContacto {
+    text-align: right;
+    background-image: url(https://cdn.shopify.com/s/files/1/0291/5962/0668/products/photo_n00024_s163_smooth_1.0_1920x1080_1bc9d755-6c85-41bc-ab71-df3c514875dd_1024x1024@2x.png?v=1651440592);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 90vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    h1 {
+        text-align: right;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 140px;
+        color: #007FFF;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 350px;
+        padding-right: 100px;
+        
+    }
+}
+
+.tituloContactarnos {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    background-color: #5A5353;
+    color: black;
+    margin-top: 100px;
+}
+
+.contactoRedes {
+    background-color: #5A5353;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .igLogoAzul {
+        width: 200px;
+    }
+    .wspLogoAzul {
+        width: 250px;
+    }
+}
+
+/*VISTA MOBILE*/
+@media  (max-width: 640px) {
+    .tituloContacto {
+        h1 {
+            font-size: 60px;
+            padding-left: 0;
+            padding-right: 200px;
+        }
+    }
+}

@@ -104,3 +104,53 @@
         
     }
 }
+
+/*VISTA MOBILE*/
+@media  (max-width: 640px) {
+    .tituloResultado {
+        h1 {
+        font-size: 60px;
+        padding-left: 0;
+        padding-right: 250px;
+
+        }
+    }
+
+    .podio {
+        img {
+            width: 100%;
+        }
+    }
+    .resultadosFinales {
+        img {
+            width: 100%;
+        }
+    }
+    .parrafoResumen {
+        h5 {
+            font-size: 55px;
+            
+        }
+        p {
+            font-size: 30px;
+        }
+        h6 {
+            font-size: 45px;
+            padding-right: 30px;
+        }
+    }
+
+}
+
+
+/*MEDIA TABLET*/
+@media  (min-width:640px) and (max-width:1200px) {
+    .tituloResultado {
+        h1 {
+            font-size: 80px;
+            padding-left: 0;
+            padding-right: 320px;
+        }
+    }
+      
+}
