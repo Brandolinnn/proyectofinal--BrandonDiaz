@@ -415,7 +415,7 @@ header {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   background-color: #007FFF;
   z-index: 1;
   opacity: 90%; }
@@ -423,7 +423,7 @@ header {
     width: 150px; }
   header a {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold; }
   header .redes {
     display: inline-block;
