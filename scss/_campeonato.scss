@@ -20,7 +20,7 @@
         font-size: 60px;
         font-family: 'Bebas Neue', cursive;
         font-size: 120px;
-        color: #007FFF;
+        color: $colorprimario;
         opacity: 80%;
         text-decoration: underline;
         font-weight: bold;
@@ -32,7 +32,7 @@
 /*IMAGENES PC Y MOBILE*/
 .campeonatoFoto {
     text-align: center;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     padding-top: 30px;
     padding-bottom: 30px;
     
@@ -48,14 +48,14 @@
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 75px;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     color: black;
     margin-top: 100px;
 }
 
 /*PARRAFO Y FOTO "NUEVO CAMPEONATO"*/
 .sectionNuevoCampeonato {
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -78,13 +78,13 @@
     }
 }
 .comoInscribirme {
-    background-color: #007FFF;
+    background-color: $colorprimario;
 }
 .comoInscribirmeTitulo {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 75px;
-    background-color: #007FFF;
+    background-color: $colorprimario;
     color: black;
     margin-top: 100px;
     text-decoration: underline;
@@ -94,7 +94,7 @@
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 55px;
-    background-color: #007FFF;
+    background-color: $colorprimario;
     color: black;
     margin-top: 20px;
 }
@@ -104,7 +104,7 @@
     padding: 30px;
     margin-left: 40%;
     border-radius: 4px;
-    background-color: #007FFF;
+    background-color: $colorprimario;
     
     form {
         text-align: center;

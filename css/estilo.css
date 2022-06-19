@@ -421,7 +421,7 @@ header {
   opacity: 90%; }
   header .logo {
     width: 150px; }
-  header .fuentes {
+  header a {
     color: white;
     font-size: 25px;
     font-weight: bold; }
@@ -545,8 +545,9 @@ footer {
   footer .volverInicio {
     font-size: 20px; }
     footer .volverInicio a {
-      color: white;
-      font-weight: bold; }
+      color: black;
+      font-weight: bold;
+      padding: 10px; }
   footer h4 {
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;

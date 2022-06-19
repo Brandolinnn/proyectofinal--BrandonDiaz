@@ -1,4 +1,4 @@
-@import "campeonato" , "resultados" , "preguntas", "contacto" ;
+@import "variables" , "campeonato" , "resultados" , "preguntas", "contacto" ;
 
 
 /*PUBLICIDAD DE INSTAGRAM*/
@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    background-color:#007FFF;
+    background-color:$colorprimario;
     z-index: 1;
     opacity: 90%;
     
@@ -35,7 +35,7 @@ header {
         width: 150px;
     }
 
-    .fuentes {
+    a {
         color: white;
         font-size: 25px;
         font-weight: bold;
@@ -74,7 +74,7 @@ header {
         font-size: 60px;
         font-family: 'Bebas Neue', cursive;
         font-size: 100px;
-        color: #007FFF;
+        color: $colorprimario;
         opacity: 80%;
         text-decoration: underline;
         font-weight: bold;
@@ -94,14 +94,14 @@ header {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 75px;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     color: white ;
     margin-top: 100px;
     
 }
 /*PARRAFOS "QUIENES SOMOS"*/
 .quienesSomosParrafo {
-    background-color: #007FFF;
+    background-color: $colorprimario;
     .parrafoTorneo {
         font-family:  'Bebas Neue', cursive;
         font-size: 40px;
@@ -112,7 +112,7 @@ header {
         text-align: center;
         font-family: 'Bebas Neue', cursive;
         font-size: 75px;
-        background-color: #007FFF;
+        background-color: $colorprimario;
         color: white;
         margin-top: 10px;
     }
@@ -122,7 +122,7 @@ header {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 75px;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     color: black;
     margin-top: 100px;
 }
@@ -132,7 +132,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     text-align: center;
     padding-bottom: 30px;
     z-index: 20;
@@ -144,7 +144,7 @@ header {
 
     .btn {
         color: white;
-        background-color:#007FFF;
+        background-color:$colorprimario;
     }
 
 }
@@ -152,7 +152,7 @@ header {
 /*PREMIOS Y FOTO DE LOS PREMIOS"*/
 .premios {
     text-align: center;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     padding-top: 20PX;
     padding-bottom: 20px;
 
@@ -163,7 +163,7 @@ header {
 
 /*AGRADECIMIENTO*/
 .sponsor {
-    background-color: #007FFF;
+    background-color: $colorprimario;
     margin-top: 100px;
     text-align: center;
     h3 {
@@ -185,17 +185,19 @@ header {
 
 footer {
     text-align: center;
-    background-color: #007FFF;
+    background-color: $colorprimario;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     margin-top: 30px;
     align-items: center;
     .volverInicio {
+        
         font-size: 20px;
         a {
-            color: white;
+            color: black;
             font-weight: bold;
+            padding: 10px;
         }
     }
     h4 {

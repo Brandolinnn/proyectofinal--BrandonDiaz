@@ -13,7 +13,7 @@
         text-align: right;
         font-family: 'Bebas Neue', cursive;
         font-size: 140px;
-        color: #007FFF;
+        color: $colorprimario;
         text-decoration: underline;
         font-weight: bold;
         padding-top: 400px;
@@ -25,7 +25,7 @@
 .preguntas {
     text-align: center;
     padding: 20px;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     margin-top:100px;
     
     h2 {
@@ -55,7 +55,7 @@
 .preguntasDos {
     text-align: center;
     padding: 20px;
-    background-color: #5A5353;
+    background-color: $colorsecundario;
     
     h2 {
         font-size: 60px;
